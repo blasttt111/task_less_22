@@ -36,12 +36,14 @@
   2. Создаем Dockerfile и кладем в каталог `api`
 <img width="843" height="193" alt="image" src="https://github.com/user-attachments/assets/9c91e28c-c733-42ef-8b28-389c97ecbc46" />
 
-  3. Создаем конфиг для Nginx
-  <img width="577" height="449" alt="image" src="https://github.com/user-attachments/assets/143e355b-61ca-4b8d-917f-16f7d43ba769" />
+  3. Создаем конфиг для Nginx `default.conf`
+  <img width="954" height="361" alt="image" src="https://github.com/user-attachments/assets/7870b3fc-573a-4271-9c49-16c10be10ceb" />
+
 
   4. Создаем docker-compose.yml
   <img width="876" height="794" alt="image" src="https://github.com/user-attachments/assets/e36dccbc-63dd-47b6-a0d4-6dc2112a3049" />
-  <img width="673" height="456" alt="image" src="https://github.com/user-attachments/assets/a7b8b0a5-baa0-4377-9088-3737ab09b6ac" />
+  <img width="720" height="373" alt="image" src="https://github.com/user-attachments/assets/82f69639-eaa9-4012-b4ff-f55f0aeb6006" />
+
 
   5. Собираем и запускаем, сразу покурлим и проверим логи.
     - (`docker compose up -d --build`)
